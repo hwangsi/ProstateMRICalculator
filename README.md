@@ -7,7 +7,7 @@ Android app that calculates prostate volume from MRI images using on-device AI O
 ## Features
 
 - **AI-Powered OCR**: Automatically extracts width, height, and depth measurements (mm) from MRI images using Google ML Kit — runs entirely on-device, no internet required
-- **Image Preprocessing**: Yellow pixel masking to isolate MRI measurement overlays before OCR analysis
+- **Image Preprocessing**: Yellow pixel masking to isolate MRI measurement overlays before OCR analysis. The measurement should be in Yellow color!
 - **Volume Calculation**: Computes prostate volume using the ellipsoid formula
 - **BPH Classification**: Color-coded severity classification across 5 clinical categories
 - **Manual Override**: Edit extracted measurements manually if OCR result is incomplete
